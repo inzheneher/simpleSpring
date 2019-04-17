@@ -13,11 +13,6 @@ public class PowerTwoImplTest {
     @Autowired
     private PowerTwo powerTwo;
 
-    @Before
-    public void setUp() {
-        System.out.println(powerTwo);
-    }
-
     @Test
     public void shouldReturnPowerTwo() {
         assertEquals(4, powerTwo.getPowerTwo(2));
