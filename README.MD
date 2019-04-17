@@ -1,0 +1,1 @@
+Simplest example of Spring context and component interaction.
