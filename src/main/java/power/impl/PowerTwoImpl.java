@@ -1,6 +1,7 @@
-package power;
+package power.impl;
 
 import org.springframework.stereotype.Component;
+import power.api.PowerTwo;
 
 @Component
 public class PowerTwoImpl implements PowerTwo {

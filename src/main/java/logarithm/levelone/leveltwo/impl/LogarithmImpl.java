@@ -1,5 +1,6 @@
-package logarithm.levelone.leveltwo;
+package logarithm.levelone.leveltwo.impl;
 
+import logarithm.levelone.leveltwo.api.Logarithm;
 import org.springframework.stereotype.Component;
 
 @Component

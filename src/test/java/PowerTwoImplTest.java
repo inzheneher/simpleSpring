@@ -1,11 +1,12 @@
-import logarithm.levelone.leveltwo.Logarithm;
+import conf.MathConfiguration;
+import logarithm.levelone.leveltwo.api.Logarithm;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import power.PowerTwo;
-import sqrt.Sqrt;
+import power.api.PowerTwo;
+import sqrt.api.Sqrt;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,6 +1,7 @@
-package sqrt;
+package sqrt.impl;
 
 import org.springframework.stereotype.Component;
+import sqrt.api.Sqrt;
 
 @Component
 public class SqrtImpl implements Sqrt {
