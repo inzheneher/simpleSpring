@@ -27,7 +27,7 @@ pipeline {
       steps {
         echo 'deploying the application...'
         script {
-          def test = 2 ^ 2
+          def test = 2 ^ 2 > 3 ? 'power' : 'less'
           echo test
         }
       }
