@@ -26,6 +26,10 @@ pipeline {
     
       steps {
         echo 'deploying the application...'
+        script {
+          def test = 2 ^ 2
+          echo test
+        }
       }
     }
   }
