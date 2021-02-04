@@ -1,21 +1,35 @@
 pipeline {
+
   agent any
-  tools {
-    gradle 'Gradle'
-  }
+  
   stages {
-    stage("run frontend") {
+    
+    stage("build") {
+    
       steps {
-        echo 'executing yarn...'
-        nodejs('Node-15-7') {
-          sh 'yarn install'
+        echo 'building the application...'
+        script {
+          def test = 2 + 2 * 2 > 3 ? 'cool' : 'not so cool'
+          echo test
         }
       }
     }
-    stage("run backend") {
+    
+    stage("test") {
+    
       steps {
-        echo 'executing gradle...'
-        sh './gradlew -v'
+        echo 'testing the application...'
+      }
+    }
+    
+    stage("deploy") {
+    
+      steps {
+        echo 'deploying the application...'
+        script {
+          def test = 2 * 2 > 3 ? 'power' : 'less'
+          echo test
+        }
       }
     }
   }
