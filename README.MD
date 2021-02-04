@@ -1,6 +1,6 @@
 Simplest example of Spring context and component interaction.
 ###
-This text was added for test reason only.
+This text was added for testing purposes.
 ###
-Some more updates.
+Another test text.
 ###
